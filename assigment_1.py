@@ -42,7 +42,7 @@ while entry=="Y":
         value=input(" ")
         lst.append(value)
     lst1.append(lst)
-    entry=input("another entry ?")
+    entry=input("another entry ? Y for yes and N for no")
 print(lst1)
 
 
