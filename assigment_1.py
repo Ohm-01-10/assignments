@@ -72,7 +72,7 @@ color1=color.copy()
 color1.remove(color[3])
 print(color1)
 # # Remove ‘Black’ and ‘Pink’ from the list and replace them with ‘Purple’.
-color[35]=["Purple"]
+color[3:5]=["Purple"]
 print(color)
 
 
