@@ -1,10 +1,13 @@
 
+
 # QUESTION 1
 
+print("QUESTION 1")
 print("please enter the numbers in the format _,_,_")
 num1,num2,num3=(input("enter three numbers")).split(",")
 avg=int(num1)+int(num2)+int(num3)/3
 print(avg)
+print()
 
 
 # QUESTION 2
@@ -21,17 +24,18 @@ print(avg)
 # # * No. of dependents)
 # # Tax = Taxable Income * Tax Rate
 #
-
+print("QUESTION 2")
 total_income=int(input("Enter your Total Income"))
 no_of_dependents=int(input("enter the no of dependents"))
 standard_deduction=10000
 taxable_income=total_income-standard_deduction-(no_of_dependents*3000)
 tax=taxable_income*0.20
 print(f"your total income is ${total_income} \nstandard deduction is ${standard_deduction} \ndeduction on dependents is ${no_of_dependents*3000} \ntax is {tax}")
-
+print()
 
 # QUESTION 3
 
+print("QUESTION 3")
 student=["SID", "Name", "Gender", "Course_Name", "CGPA"]
 entry="Y"
 lst1=[]
@@ -42,13 +46,14 @@ while entry=="Y":
         value=input(" ")
         lst.append(value)
     lst1.append(lst)
-    entry=input("another entry ? Y for yes and N for no")
+    entry=input("another entry ?")
 print(lst1)
+print()
 
 
 # QUESTION 4
 
-
+print("QUESTION 4")
 no_of_entries=0
 req=["name","marks"]
 lst1=[]
@@ -62,10 +67,12 @@ while no_of_entries!=5:
     no_of_entries+=1
 for entries in lst1:
     print(entries)
+print()
+
 
 # Question 5
 
-
+print("QUESTION 5")
 color=['Red', 'Green', 'White', 'Black', 'Pink', 'Yellow']
 print(color)
 color1=color.copy()
@@ -74,6 +81,8 @@ print(color1)
 # # Remove ‘Black’ and ‘Pink’ from the list and replace them with ‘Purple’.
 color[3:5]=["Purple"]
 print(color)
+print()
+
 
 
 
