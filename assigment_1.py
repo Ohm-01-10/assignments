@@ -5,7 +5,7 @@
 print("QUESTION 1")
 print("please enter the numbers in the format _,_,_")
 num1,num2,num3=(input("enter three numbers")).split(",")
-avg=int(num1)+int(num2)+int(num3)/3
+avg=(int(num1)+int(num2)+int(num3))/3
 print(avg)
 print()
 
