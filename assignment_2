@@ -1,0 +1,93 @@
+print("CODE BY OM TIWARY".center(40))
+print("NMAE:OM TIWARY".rjust(100))
+print("SID: 21104039".rjust(100))
+print('BRANCH:ELECTRICAL'.rjust(100))
+
+
+print("QUESTION 1")
+user_text="Python is a case sensitive language"
+#LENGTH OF STRING
+print("length of string is",len(user_text))
+#REVERSE ORDER STRING
+print("reversed string is ",user_text[::-1])
+#“a case sensitive” in new string
+a_index=user_text.index("a")
+l_index=user_text.index("l")
+print(user_text[a_index:l_index-1])
+#Replace “a case sensitive” with “object oriented”
+change=user_text.replace("a case sensitive","object oriented")
+print(change)
+#Remove the white spaces from the given input string.
+change1=user_text.replace(" ","")
+print(change1)
+print()
+
+print("QUESTION 2")
+# Store your name, SID, department name and CGPA into different variables.
+# With the help of String formatting print the following output:
+SID = "2110XXXX"
+Name = "ABC"
+Branch = "XYZ"
+CGPA="9.9"
+print(" Hey, {Name} Here!\n My SID is {SID}\n I am from {Branch} department and my CGPA is {CGPA}".format(Name=Name,SID=SID,Branch=Branch,CGPA=CGPA))
+print()
+
+print("QUESTION 3")
+#BITWISE OPERATIONS
+a=56
+b=10
+#BITWISE AND OPERATOR
+print(a&b)
+#BITWISE OR OPERATOR
+print(a|b)
+#BITWISE XOR OPERATOR
+print(a^b)
+#BITWISE LEFT SHIFT 2 BITS
+print(a<<2,end="  ")
+print(b<<2)
+#BITWISE RIGHT SHIFT 2 AND 4 BITS
+print(a>>2,end="  ")
+print(b>>4)
+print()
+
+
+
+print("QUESTION 4")
+num1=int(input("Enter the first number:"))
+num2=int(input("Enter the second number:"))
+num3=int(input("Enter the third number:"))
+maximum=num1
+if num2>num1:
+    maximum=num2
+    if num3>maximum:
+        maximum=num3
+elif num3>num1:
+    maximum=num3
+print("The max number is ", maximum)
+print()
+
+print("QUESTION 5")
+#STRING "Name" present in the input string
+user_str=input("enter a string : \n")
+no_of_times_name=user_str.count("name")
+if no_of_times_name>0:
+    print("YES")
+else:
+    print("NO")
+print()
+
+print("QUESTION 6")
+#triangle with input side possible or not
+first_side_of_triangle=int(input("enter the first side of triangle :"))
+second_side_of_triangle=int(input("enter the second side of triangle :"))
+third_side_of_triangle=int(input("enter the third side of triangle :"))
+lst=[first_side_of_triangle,second_side_of_triangle,third_side_of_triangle]
+max_of_sides=max(lst)
+lst.remove(max_of_sides)
+sum=0
+for i in lst:
+    sum+=i
+if sum>max_of_sides:
+    print("YES")
+else:
+    print("NO")
