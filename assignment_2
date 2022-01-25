@@ -1,3 +1,4 @@
+
 print("CODE BY OM TIWARY".center(40))
 print("NAME:OM TIWARY".rjust(100))
 print("SID: 21104039".rjust(100))
@@ -53,6 +54,7 @@ print()
 
 
 print("QUESTION 4")
+print("GREATEST OF THREE NUMBERS.")
 num1=int(input("Enter the first number:"))
 num2=int(input("Enter the second number:"))
 num3=int(input("Enter the third number:"))
@@ -68,6 +70,7 @@ print()
 
 print("QUESTION 5")
 #STRING "Name" present in the input string
+print("NAME PRESENT OR NOT")
 user_str=input("enter a string : \n")
 no_of_times_name=user_str.count("name")
 if no_of_times_name>0:
@@ -76,15 +79,15 @@ else:
     print("NO")
 print()
 
-
-
 print("QUESTION 6")
+print("TRIANGLE POSSIBLE")
 #triangle with input side possible or not
 first_side_of_triangle=int(input("enter the first side of triangle :"))
 second_side_of_triangle=int(input("enter the second side of triangle :"))
 third_side_of_triangle=int(input("enter the third side of triangle :"))
-if first_side_of_triangle+second_side_of_triangle>third_side_of_triangle and first_side_of_triangle+third_side_of_triangle>second_side_of_triangle and second_side_of_triangle+third_side_of_triangle>first_side_of_triangle:
+if first_side_of_triangle+second_side_of_triangle>third_side_of_triangle or first_side_of_triangle+third_side_of_triangle>second_side_of_triangle or second_side_of_triangle+third_side_of_triangle>first_side_of_triangle:
     print("YES")
 else:
     print("NO")
+
 
