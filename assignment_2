@@ -1,5 +1,5 @@
 print("CODE BY OM TIWARY".center(40))
-print("NMAE:OM TIWARY".rjust(100))
+print("NAME:OM TIWARY".rjust(100))
 print("SID: 21104039".rjust(100))
 print('BRANCH:ELECTRICAL'.rjust(100))
 
