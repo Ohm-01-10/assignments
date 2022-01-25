@@ -76,19 +76,15 @@ else:
     print("NO")
 print()
 
+
+
 print("QUESTION 6")
 #triangle with input side possible or not
 first_side_of_triangle=int(input("enter the first side of triangle :"))
 second_side_of_triangle=int(input("enter the second side of triangle :"))
 third_side_of_triangle=int(input("enter the third side of triangle :"))
-lst=[first_side_of_triangle,second_side_of_triangle,third_side_of_triangle]
-max_of_sides=max(lst)
-lst.remove(max_of_sides)
-#sum of the two small sides as (sum).
-sum=0 
-for i in lst:
-    sum+=i
-if sum>max_of_sides:
+if first_side_of_triangle+second_side_of_triangle>third_side_of_triangle and first_side_of_triangle+third_side_of_triangle>second_side_of_triangle and second_side_of_triangle+third_side_of_triangle>first_side_of_triangle:
     print("YES")
 else:
     print("NO")
+
