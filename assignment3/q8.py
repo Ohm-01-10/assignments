@@ -6,7 +6,7 @@ set3= {1, 5, 9, 13, 17}
 # A
 # Create a new set of all elements that are in Set1 and Set2 but not both.
 print("A :")
-a=set1-set2
+a=set1-set2|set2-set1
 print(a)
 
 # B
