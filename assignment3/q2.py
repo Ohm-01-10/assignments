@@ -29,7 +29,7 @@ if int(year)>=1800 and int (year)<=2025 and int(month)>=1 and int(month)<=12 :
             a[0] = 1
             a[1] = int(a[1]) + 1
             print("Next Date :", a[0], "/", a[1], "/", a[2])
-    if int(a[1])<12 and int(a[0])==days_months[x]:
+    elif int(a[1])<12 and int(a[0])==days_months[x]:
         a[0]=1
         a[1]=int(a[1])+1
         print("Next Date :", a[0], "/", a[1], "/", a[2])
