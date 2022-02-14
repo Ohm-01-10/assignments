@@ -22,6 +22,13 @@ name={1:"january",2:"February",3:"March",4:"April",5:"May",6:"June",7:"July",8:"
 x=int(a[1])
 if int(year)>=1800 and int (year)<=2025 and int(month)>=1 and int(month)<=12 :
                   #storing int of month in x for calling value from dictionary days_months
+    if int(a[1])==2 and int(a[2])%4==0:
+        if int(a[0])==28:
+            print("Next Date :", 29, "/", a[1], "/", a[2])
+        elif int(a[0])==29:
+            a[0] = 1
+            a[1] = int(a[1]) + 1
+            print("Next Date :", a[0], "/", a[1], "/", a[2])
     if int(a[1])<12 and int(a[0])==days_months[x]:
         a[0]=1
         a[1]=int(a[1])+1
