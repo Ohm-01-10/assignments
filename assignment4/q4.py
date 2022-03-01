@@ -19,10 +19,10 @@ class student:
 
 #creating student object
 
-s1=student("harsh vaish",21104071)
-s2=student("om",21104039)
-s3=student("lallu",21104099)
-s4=student("lalballu",2110904)
+s1=student("alpha",2110)
+s2=student("beta",211043)
+s3=student("gamma",2110409)
+s4=student("delta",21109043)
 
 #printing the details of s1
 

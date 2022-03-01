@@ -23,7 +23,7 @@ class employees:
             self.display()
 
     def delete(self):
-        print("deleting",self)
+        print("Deleting Employee",self.name)
         del self
         time.sleep(1)
         print("Employee Details Deleted")
