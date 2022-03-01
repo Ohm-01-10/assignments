@@ -1,4 +1,5 @@
 class Towers:
+    print("\t Tower of Hanoi with 3 Disks")
     def __init__(self, disks=3):
         self.disks = disks
         self.towers = [[]]*3
